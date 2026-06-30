@@ -30,9 +30,9 @@ I am especially interested in questions like:
       <p>This project brings conformal geometry into 360-degree content allocation: a Möbius warp concentrates sampling and bitrate budget around a predicted viewport while preserving local angle structure in the region that matters most.</p>
       <p>What I like about it is that it does not stop at a visual demo. It pushes the geometry into codec evaluation, trace replay, QoE analysis, and offline streaming proxies, so the method is tested in a systems-facing setting.</p>
       <p>
-        <a href="./D-Conformal-360/README.md">README</a> ·
-        <a href="./D-Conformal-360/docs/PAPER_CORE_CONTRIBUTION.md">Core Contribution</a> ·
-        <a href="./D-Conformal-360/web/index.html">Interactive Demo</a>
+        <a href="https://github.com/pkupig/mobius-conformal-360/blob/main/README.md">README</a> ·
+        <a href="https://arxiv.org/html/2606.20684v1">Core Contribution</a> ·
+        <a href="https://conformal-360.netlify.app/">Interactive Demo</a>
       </p>
     </td>
     <td width="48%" valign="top">

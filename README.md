@@ -85,7 +85,7 @@ Beyond this repository, I also work on several systems with a similar preference
 
 - `4d`: physics-guided future prediction for sparse 4D occupancy, with emphasis on dynamic prediction and metric-calibrated serialization
 - `U-spark`: a matching-system design that combines rules, semantic user profiling, and fine-tuned language models
-- `claude_workshop`: an experimental workspace around generation, editing, and structured metadata
+- `3DARG`: an experimental workspace around generation, editing, and structured metadata
 
 ## Working Style
 

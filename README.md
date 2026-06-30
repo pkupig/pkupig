@@ -12,13 +12,13 @@
 
 ## About
 
-我主要做几何驱动的图形学、可解释的视觉表示，以及能真正落地的交互系统。
+I work on geometry-driven graphics, explainable visual representations, and interactive systems that are meant to be used rather than just described.
 
-我更关心这类问题：
+I am especially interested in questions like:
 
-- 几何结构能不能直接决定表示与优化方式
-- 一个方法除了“能跑”，能不能讲清楚为什么成立
-- 图形算法能不能做成可演示、可交互、可复用的工具
+- Can geometric structure directly shape representation and optimization?
+- Can a method be explained clearly, not just made to run?
+- Can graphics algorithms become interactive, reusable tools instead of isolated demos?
 
 ## Featured Projects
 
@@ -26,9 +26,9 @@
   <tr>
     <td width="52%" valign="top">
       <h3>D · Mobius Conformal 360</h3>
-      <p><strong>关键词：</strong> Möbius 变换 / 保形几何 / 360 内容 / viewport allocation</p>
-      <p>这个项目把保形几何真正落到 360° 内容分配问题上：通过 Möbius warp，把采样和码率预算集中到预测视口附近，同时尽量保留关键区域的局部角度结构。</p>
-      <p>我比较看重它的一点，是它不是只做视觉 demo，而是继续往 codec、trace replay、QoE 和 offline streaming proxy 的方向推进，把几何方法放进系统评价语境里。</p>
+      <p><strong>Keywords:</strong> Möbius transform / conformal geometry / 360 content / viewport allocation</p>
+      <p>This project brings conformal geometry into 360-degree content allocation: a Möbius warp concentrates sampling and bitrate budget around a predicted viewport while preserving local angle structure in the region that matters most.</p>
+      <p>What I like about it is that it does not stop at a visual demo. It pushes the geometry into codec evaluation, trace replay, QoE analysis, and offline streaming proxies, so the method is tested in a systems-facing setting.</p>
       <p>
         <a href="./D-Conformal-360/README.md">README</a> ·
         <a href="./D-Conformal-360/docs/PAPER_CORE_CONTRIBUTION.md">Core Contribution</a> ·
@@ -50,9 +50,9 @@
     </td>
     <td width="56%" valign="top">
       <h3>E · Manifold-Conservative Gaussian Splatting</h3>
-      <p><strong>关键词：</strong> 3DGS / surface-aware representation / manifold projection / assetization</p>
-      <p>我不把 3D Gaussian Splatting 里的高斯只看成“自由漂浮的辐射粒子”，而是尝试把它们解释成由流形诱导的离散几何测度。</p>
-      <p>这条线更关心的问题是：一组 splats 什么时候才真正像一个可编辑、可诊断、可导出资产的几何对象，而不是只是渲染结果看起来还不错。</p>
+      <p><strong>Keywords:</strong> 3DGS / surface-aware representation / manifold projection / assetization</p>
+      <p>I do not want to treat 3D Gaussian Splatting as a cloud of free-floating radiance particles. This project tries to reinterpret splats as a discrete geometric measure induced by manifolds.</p>
+      <p>The deeper question here is when a set of splats actually behaves like an editable, diagnosable, exportable geometric object, rather than merely producing acceptable rendered images.</p>
       <p>
         <a href="./E-Manifold-GS/README.md">README</a> ·
         <a href="./E-Manifold-GS/FRAMEWORK_ZH.md">Framework ZH</a> ·
@@ -66,9 +66,9 @@
   <tr>
     <td width="54%" valign="top">
       <h3>para_and_defo</h3>
-      <p><strong>关键词：</strong> parameterization / mesh deformation / browser interaction / teaching demo</p>
-      <p>一个我很喜欢的小而完整的项目：把三角网格参数化和变形做成浏览器里的交互式 demo，兼顾教学展示和研究原型。</p>
-      <p>它提供了 ARAP、ASAP、LSCM、MVC 等参数化方法，也支持 ARAP / Laplacian deformation，并且把 3D 网格视图和 2D 参数域视图联动起来。</p>
+      <p><strong>Keywords:</strong> parameterization / mesh deformation / browser interaction / teaching demo</p>
+      <p>This is a compact project I like a lot because it is small but complete: triangle-mesh parameterization and deformation presented as an interactive browser demo, useful both for teaching and as a research prototype.</p>
+      <p>It includes ARAP, ASAP, LSCM, and MVC-style parameterization, supports ARAP and Laplacian deformation, and keeps the 3D mesh view synchronized with the 2D parameter-domain view.</p>
       <p>
         <a href="./para_and_defo/defor_param/README.md">README</a>
       </p>
@@ -81,11 +81,11 @@
 
 ## More Work
 
-除了这个仓库里的项目，我也在持续做一些方向不同、但都偏“结构明确”的系统：
+Beyond this repository, I also work on several systems with a similar preference for explicit structure:
 
-- `4d`：物理驱动的 4D 稀疏占据未来预测，重点是 dynamic prediction 和 metric-calibrated serialization
-- `U-spark`：结合规则系统、语义画像和微调大模型的匹配算法设计
-- `claude_workshop`：围绕生成、编辑和结构化 metadata 的实验型工作区
+- `4d`: physics-guided future prediction for sparse 4D occupancy, with emphasis on dynamic prediction and metric-calibrated serialization
+- `U-spark`: a matching-system design that combines rules, semantic user profiling, and fine-tuned language models
+- `claude_workshop`: an experimental workspace around generation, editing, and structured metadata
 
 ## Working Style
 

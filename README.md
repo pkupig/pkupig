@@ -32,7 +32,7 @@ I am especially interested in questions like:
       <p>
         <a href="https://github.com/pkupig/mobius-conformal-360/blob/main/README.md">README</a> ·
         <a href="https://arxiv.org/html/2606.20684v1">Core Contribution</a> ·
-        <a href="https://conformal-360.netlify.app/">Interactive Demo</a>
+        <a href="https://conformal-360.netlify.app/">Project Homepage</a>
       </p>
     </td>
     <td width="48%" valign="top">

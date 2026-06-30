@@ -25,7 +25,7 @@ I am especially interested in questions like:
 <table>
   <tr>
     <td width="52%" valign="top">
-      <h3>D · Mobius Conformal 360</h3>
+      <h3>Mobius Conformal 360</h3>
       <p><strong>Keywords:</strong> Möbius transform / conformal geometry / 360 content / viewport allocation</p>
       <p>This project brings conformal geometry into 360-degree content allocation: a Möbius warp concentrates sampling and bitrate budget around a predicted viewport while preserving local angle structure in the region that matters most.</p>
       <p>What I like about it is that it does not stop at a visual demo. It pushes the geometry into codec evaluation, trace replay, QoE analysis, and offline streaming proxies, so the method is tested in a systems-facing setting.</p>
@@ -49,7 +49,7 @@ I am especially interested in questions like:
       <img src="./assets/manifold-gs-card.svg" alt="Manifold GS concept card" width="100%" />
     </td>
     <td width="56%" valign="top">
-      <h3>E · Manifold-Conservative Gaussian Splatting</h3>
+      <h3>Manifold-Conservative Gaussian Splatting</h3>
       <p><strong>Keywords:</strong> 3DGS / surface-aware representation / manifold projection / assetization</p>
       <p>I do not want to treat 3D Gaussian Splatting as a cloud of free-floating radiance particles. This project tries to reinterpret splats as a discrete geometric measure induced by manifolds.</p>
       <p>The deeper question here is when a set of splats actually behaves like an editable, diagnosable, exportable geometric object, rather than merely producing acceptable rendered images.</p>

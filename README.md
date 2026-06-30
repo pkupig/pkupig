@@ -70,11 +70,11 @@ I am especially interested in questions like:
       <p>This is a compact project I like a lot because it is small but complete: triangle-mesh parameterization and deformation presented as an interactive browser demo, useful both for teaching and as a research prototype.</p>
       <p>It includes ARAP, ASAP, LSCM, and MVC-style parameterization, supports ARAP and Laplacian deformation, and keeps the 3D mesh view synchronized with the 2D parameter-domain view.</p>
       <p>
-        <a href="./para_and_defo/defor_param/README.md">README</a>
+        <a href="https://github.com/pkupig/para_and_defo/blob/main/README.md">README</a>
       </p>
     </td>
     <td width="46%" valign="top">
-      <img src="./para_and_defo/defor_param/checkerboard.png" alt="para and defo checkerboard" width="100%" />
+      <img src="https://github.com/pkupig/para_and_defo/blob/main/demo.png" width="100%" />
     </td>
   </tr>
 </table>

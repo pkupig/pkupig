@@ -1,0 +1,66 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#102A43"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="770" y1="92" x2="1032" y2="244" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDBA74"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(932 88) rotate(121.1) scale(278 398)">
+      <stop stop-color="#F59E0B" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#glow)"/>
+
+  <g opacity="0.12">
+    <path d="M0 82H1200" stroke="white"/>
+    <path d="M0 136H1200" stroke="white"/>
+    <path d="M0 190H1200" stroke="white"/>
+    <path d="M0 244H1200" stroke="white"/>
+    <path d="M150 0V320" stroke="white"/>
+    <path d="M330 0V320" stroke="white"/>
+    <path d="M510 0V320" stroke="white"/>
+    <path d="M690 0V320" stroke="white"/>
+    <path d="M870 0V320" stroke="white"/>
+    <path d="M1050 0V320" stroke="white"/>
+  </g>
+
+  <g opacity="0.92">
+    <circle cx="952" cy="160" r="92" stroke="url(#accent)" stroke-width="2.5"/>
+    <circle cx="952" cy="160" r="58" stroke="url(#accent)" stroke-width="1.8" opacity="0.8"/>
+    <circle cx="952" cy="160" r="25" fill="#FB923C"/>
+    <path d="M860 160H1044" stroke="url(#accent)" stroke-width="1.6" opacity="0.82"/>
+    <path d="M952 68V252" stroke="url(#accent)" stroke-width="1.6" opacity="0.82"/>
+    <path d="M888 96L1016 224" stroke="url(#accent)" stroke-width="1.1" opacity="0.55"/>
+    <path d="M888 224L1016 96" stroke="url(#accent)" stroke-width="1.1" opacity="0.55"/>
+  </g>
+
+  <g>
+    <path d="M734 208C782 170 820 168 858 182" stroke="#FDE68A" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="734" cy="208" r="8" fill="#FDE68A"/>
+    <circle cx="776" cy="186" r="8" fill="#FDBA74"/>
+    <circle cx="818" cy="178" r="8" fill="#FB923C"/>
+    <circle cx="858" cy="182" r="8" fill="#F97316"/>
+  </g>
+
+  <g fill="white">
+    <text x="72" y="116" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700">pkupig</text>
+    <text x="72" y="160" font-family="Verdana, Geneva, sans-serif" font-size="22" opacity="0.92">Geometry-driven graphics, interactive systems, and explainable visual representations</text>
+    <text x="72" y="206" font-family="Verdana, Geneva, sans-serif" font-size="20" opacity="0.72">Möbius geometry · Gaussian splatting · mesh tools · structured evaluation</text>
+  </g>
+
+  <g opacity="0.96">
+    <rect x="72" y="236" width="212" height="34" rx="17" fill="#F8FAFC" fill-opacity="0.12" stroke="#F8FAFC" stroke-opacity="0.35"/>
+    <text x="91" y="258" font-family="Verdana, Geneva, sans-serif" font-size="14" fill="white">Computational Geometry</text>
+    <rect x="298" y="236" width="156" height="34" rx="17" fill="#F8FAFC" fill-opacity="0.12" stroke="#F8FAFC" stroke-opacity="0.35"/>
+    <text x="323" y="258" font-family="Verdana, Geneva, sans-serif" font-size="14" fill="white">Graphics Systems</text>
+    <rect x="468" y="236" width="170" height="34" rx="17" fill="#F8FAFC" fill-opacity="0.12" stroke="#F8FAFC" stroke-opacity="0.35"/>
+    <text x="492" y="258" font-family="Verdana, Geneva, sans-serif" font-size="14" fill="white">Neural Rendering</text>
+  </g>
+</svg>
